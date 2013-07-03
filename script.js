@@ -1,6 +1,6 @@
 $(function(){
 
-  // Cache some selectors
+	// Cache some selectors
 
 	var clock = $('#clock'),
 		alarm = clock.find('.alarm'),
@@ -139,14 +139,10 @@ $(function(){
 
 	// Switch the theme
 
-	$('#switch-theme').click(function(){
-		clock.toggleClass('light dark');
-	});
-
-
+	
 	// Handle setting and clearing alamrs
 
-	$('.alarm-button').click(function(){
+	$('#alarm-button').click(function(){
 		
 		// Show the dialog
 		dialog.trigger('show');
