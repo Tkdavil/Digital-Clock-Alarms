@@ -139,7 +139,11 @@ $(function(){
 
 	// Switch the theme
 
-	
+	$('#switch-theme').click(function(){
+		clock.toggleClass('light dark');
+	});
+
+
 	// Handle setting and clearing alamrs
 
 	$('#alarm-button').click(function(){
@@ -156,6 +160,7 @@ $(function(){
 	dialog.click(function(e){
 
 		// When the overlay is clicked, 
+		// hide the dialog.
 
 		if($(e.target).is('.overlay')){
 			// This check is need to prevent
@@ -189,12 +194,12 @@ $(function(){
 		});
 
 		if(!valid){
-			alert('Please enter a valid number !! ');
+			alert('Please enter a valid number!');
 			return;
 		}
 
 		if(after < 1){
-			alert('Please choose a time in the future !!');
+			alert('Please choose a time in the future!');
 			return;	
 		}
 
