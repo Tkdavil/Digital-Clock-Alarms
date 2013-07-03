@@ -8,6 +8,9 @@
 		<!-- The main CSS file -->
 		<link href="style.css" rel="stylesheet" />
 
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 	</head>
 
 	<body>
@@ -22,6 +25,7 @@
 		</div>
 
 		<div class="button-holder">
+			<a id="switch-theme" class="button">Switch Theme</a>
 			<a id="alarm-button" class="button blue">set alarm</a>
 		</div>
 
@@ -49,7 +53,7 @@
 
 				<div class="button-holder">
 					<a id="alarm-set" class="button blue">Set</a>
-					<a id="alarm-clear" class="button red">Close</a>
+					<a id="alarm-clear" class="button red">Clear</a>
 				</div>
 
 				<a class="close"></a>
@@ -72,11 +76,11 @@
 
 		</div>
 
-		<!-- <audio id="alarm-ring" preload>
+		<audio id="alarm-ring" preload>
 			<source src="assets/audio/ticktac.mp3" type="audio/mpeg" />
 			<source src="assets/audio/ticktac.ogg" type="audio/ogg" />
 		</audio>
-		-->
+
 		
         
 		<!-- JavaScript Includes -->
