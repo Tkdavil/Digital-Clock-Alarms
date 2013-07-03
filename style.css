@@ -1,5 +1,5 @@
 /*-------------------------
-  Simple reset
+	Simple reset
 --------------------------*/
 
 
@@ -424,7 +424,7 @@ a.button:hover{
 	margin-left: -6px;
 	margin-right: -44px;
 	display: inline-block;
-	background-color:#f6a7b3;
+	background: url('alarm_btn.png');
 	position: relative;
 	z-index: 0;
 	cursor: pointer;
