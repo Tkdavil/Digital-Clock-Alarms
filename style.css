@@ -424,7 +424,7 @@ a.button:hover{
 	margin-left: -6px;
 	margin-right: -44px;
 	display: inline-block;
-	background: url('https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash3/946864_594158843962113_2041869969_n.jpg');
+	background-image: url('https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash3/946864_594158843962113_2041869969_n.jpg');
 	position: relative;
 	z-index: 0;
 	cursor: pointer;
